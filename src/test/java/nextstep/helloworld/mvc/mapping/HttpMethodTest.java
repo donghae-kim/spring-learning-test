@@ -52,6 +52,6 @@ public class HttpMethodTest {
                 .when().get("/http-method/users")
                 .then().log().all()
                 .statusCode(HttpStatus.OK.value())
-                .body("size()", is(2));
+                    .body("size()", is(2));
     }
 }

@@ -67,6 +67,9 @@ public class UriPatternTest {
      */
     @DisplayName("Uri Pattern - pattern multi")
     @Test
+
+
+
     void patternStars() {
         RestAssured.given().log().all()
                 .accept(MediaType.APPLICATION_JSON_VALUE)
